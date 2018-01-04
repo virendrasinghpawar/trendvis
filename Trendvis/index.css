@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+}
+.cell, .pane {
+  position: absolute;
+  overflow: hidden;
+}
+.cell {
+  width: 33.33%;
+  height: 50%;
+}
+.pane {
+  width: 100%;
+  height: 100%;
+}
+.trend {
+  position: absolute;
+  top: 50%;
+  left: 0.5em;
+  right: 0.5em;
+  transform: translate(0, -0.5em);
+  display: block;
+  font: bold 1em/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  color: #fff;
+  text-shadow: 0 0.1em 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+  .regionselection {
+    bottom: 20px;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+#region select {
+    cursor: pointer;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
